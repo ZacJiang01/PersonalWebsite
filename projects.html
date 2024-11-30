@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
 </head>
 <body>
     <header>
@@ -19,14 +20,28 @@
         </nav>
     </header>
     <main>
-        <h1>My Projects</h1>
-        <ul>
-            <li><strong>Project 1:</strong> Description and <a href="https://github.com/yourusername/repo1" target="_blank">GitHub Link</a></li>
-            <li><strong>Project 2:</strong> Description and <a href="https://github.com/yourusername/repo2" target="_blank">GitHub Link</a></li>
-        </ul>
+        <h1>Projects</h1>
+        <section>
+            <h2>Java Code Example</h2>
+            <pre>
+<code class="java">
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
+}
+</code>
+      </pre>
+        </section>
     </main>
     <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>&copy; 2024 Zihao Jiang (Zac). All rights reserved.</p>
     </footer>
+
+    <!-- Syntax highlighting -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
 </body>
 </html>
